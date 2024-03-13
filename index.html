@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ZedStreams</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-icons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+	<!--start main area-->
+<main> 
+	<!--start navigation-->
+	<nav class="mainnav shadow navbar-expand-lg navbar navbar-dark bg-dark fixed-top" style="min-width: 350px">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="#">
+		    	<i class="bi bi-soundwave"></i> Zed Streams
+		    	<div style="font-size: 13px">Unleash your Musical passion</div>
+		    </a>
+
+		     <div>
+			    <div class="input-group ">
+				  <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+				  <span class="bg-black text-white border-0 input-group-text" id="basic-addon2"><i class="bi bi-search"></i></span>
+				</div>
+			</div>
+
+   
+		<div class="text-white h6 mx-2">
+			<small>Follow us</small>
+			<a href="">
+				<i class="bi bi-facebook"></i>
+			</a>
+			<a href="">
+				<i class="bi bi-twitter"></i>
+			</a>
+			<a href="">
+				<i class="bi bi-instagram"></i>
+			</a>
+			
+		</div>
+
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+
+
+
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+		        <li class="nav-item"> 
+		          <a class="nav-link active" aria-current="page" href="#">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Discover</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">Trending</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">New</a>
+		        </li>
+		        
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Genre
+		          </a>
+		          <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item text-white" href="#">Pop</a></li>
+		            <li><a class="dropdown-item text-white" href="#">R&B</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item text-white" href="#">Country</a></li>
+		          </ul>
+		        </li>
+
+		        <img class="rounded-circle" src="images/01.jpg" style="width:40px;height:40px">
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Hi, Massive
+		          </a>
+		          <ul class="dropdown-menu dropdown-menu-end bg-dark" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item text-white" href="#"><i class="bi bi-person"></i> Profile</a></li>
+		            <li><a class="dropdown-item text-white" href="#"><i class="bi bi-gear"></i> Settings</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item text-white" href="#"><i class="bi bi-box-arrow-right"></i> Logout</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav><!--end navigation-->
+
+	<!--start hero area-->
+	<div class="hero-area text-white pt-5 mt-2">
+			
+			<div class="nav-spacer"></div>
+
+			<ul class="hero-nav nav m-4 nav-pills mb-3" id="pills-tab" role="tablist">
+			  <li class="nav-item" role="presentation">
+			    <button class="text-white nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Featured</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="text-white nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Trending</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="text-white nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">New Release</button>
+			  </li>
+			</ul>
+			<div class="tab-content" id="pills-tabContent">
+			  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+	  		
+	  		<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 01</div>
+	  			<div class="col d-flex">
+					<a href="images/MASSIVE.mp3">	
+									
+	  				<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+				</a>
+		  				<div class="ms-1">
+	  					<div>No more you</div>
+	  					<small>Massive</small>
+	  				</div>
+				
+	  			</div>
+	  			<div class="col-2"> 04:03 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 02</div>
+	  			<div class="col d-flex"> 
+					<a href="images/DRIMZ-SINLGE-SONG.mp3">
+
+	  				<img class= rounded m-1 src="images/DRIMZ-SINGLE.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+				</a>
+	  				<div class="ms-1">
+	  					<div>Single Ft. Jay Max</div>
+	  					<small>Drimz</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 03:36 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 03</div>
+	  			<div class="col d-flex"> 
+				<a href = "images/CHEF-BAYUBU-SONG.mp3">
+
+	  				<img class= rounded m-1 src="images/CHEF-BAYUBU.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+				</a>
+	  				<div class="ms-1">
+	  					<div>Bayubu</div>
+	  					<small>Chef 187</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 03:54 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 04</div>
+	  			<div class="col d-flex"> 
+					<a href = "images/YOMAPS-MRROMANTIC-SONG.mp3">
+
+	  				<img class= rounded m-1 src="images/YOMAPS-MRROMANTIC.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+				</a>
+	  				<div class="ms-1">
+	  					<div>Mr Romantic</div>
+	  					<small>Yo Maps</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 04:59 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 05</div>
+	  			<div class="col d-flex">
+					<a href = "images/TRIPLEM-AGAIN-SONG.mp3" >
+
+	  				<img class= rounded m-1 src="images/TRIPLEM-AGAIN.jpeg" style= "widht: 50px;height: 50px; object-fit: cover;">
+				</a>
+	  				<div class="ms-1">
+	  					<div>Again</div>
+	  					<small>Triple m</small>
+	  				</div>
+					
+
+	  			</div>
+	  			<div class="col-2"> 05:23 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+
+
+	  </div>
+	  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 01</div>
+	  			<div class="col d-flex"> 
+
+	  				<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+	  				<div class="ms-1">
+	  					<div>No more you</div>
+	  					<small>a song description</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 03:53 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 01</div>
+	  			<div class="col d-flex"> 
+
+	  				<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+	  				<div class="ms-1">
+	  					<div>No more you</div>
+	  					<small>a song description</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 05:23 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 01</div>
+	  			<div class="col d-flex"> 
+
+	  				<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+	  				<div class="ms-1">
+	  					<div>No more you</div>
+	  					<small>a song description</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 05:23 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 01</div>
+	  			<div class="col d-flex"> 
+
+	  				<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+	  				<div class="ms-1">
+	  					<div>No more you</div>
+	  					<small>a song description</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 05:23 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 01</div>
+	  			<div class="col d-flex"> 
+
+	  				<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+	  				<div class="ms-1">
+	  					<div>No more you</div>
+	  					<small>a song description</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 05:23 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  Trending</div>
+	  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+
+<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 01</div>
+	  			<div class="col d-flex"> 
+
+	  				<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+	  				<div class="ms-1">
+	  					<div>No more you</div>
+	  					<small>a song description</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 05:23 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 01</div>
+	  			<div class="col d-flex"> 
+
+	  				<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+	  				<div class="ms-1">
+	  					<div>No more you</div>
+	  					<small>a song description</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 05:23 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 01</div>
+	  			<div class="col d-flex"> 
+
+	  				<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+	  				<div class="ms-1">
+	  					<div>No more you</div>
+	  					<small>a song description</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 05:23 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 01</div>
+	  			<div class="col d-flex"> 
+
+	  				<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+	  				<div class="ms-1">
+	  					<div>No more you</div>
+	  					<small>a song description</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 05:23 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	  			<!--small song item-->
+
+	  		<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+	  			<div class="col-1 h4"> 01</div>
+	  			<div class="col d-flex"> 
+
+	  				<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+	  				<div class="ms-1">
+	  					<div>No more you</div>
+	  					<small>a song description</small>
+	  				</div>
+
+	  			</div>
+	  			<div class="col-2"> 05:23 <i class="bi bi-play"></i></div>
+	  		</div>
+	  			<!--end small song item-->
+
+	 	 </div>
+		</div>
+	</div>
+
+			<!--end hero area-->
+			<h5 class="song-category-title mx-5 pt-4"> Zed Top 10  <small class="float-end"><a href="#">view more <i class="bi bi-box-arrow-up-right"></i></a></small></h5>
+			<!--start category area-->
+			<section Class="pt-2 p-4 mx-5 d-flex" style="flex-wrap: wrap; justify-content: center;">
+
+				
+				
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/01.jpg" class="big-song-img rounded img-fluid" >
+					<a href="images/MASSIVE.MP3">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">No more you</div>
+					<small class="text-white">Massive</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/YOMAPS-TRYAGAIN.jpg" class="big-song-img rounded img-fluid" >
+					<a href="images/YOMAPS-TRYAGAIN-SONG.MP3">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Try Again Ft. Abel Chungu</div>
+					<small class="text-white">Yo Maps</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/EMMANUEL_NGANDU_LEZA_WABA_LEZA.jpg" class="big-song-img rounded img-fluid" >
+					<a href="images/EMMANUEL_NGANDU_LEZA_WABA_LEZA.MP3">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Leza waba Leza</div>
+					<small class="text-white">Emmanuel Ngandu</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/CHEF-BAYUBU.jpg" class="big-song-img rounded img-fluid" >
+					<a href="images/CHEF-BAYUBU-SONG.mp3">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Ba Yubu</div>
+					<small class="text-white">Chef 187</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/SLAPD-AFRICANQUEEN.jpg" class="big-song-img rounded img-fluid" >
+					<a href="images/SLAPD-AFRICANQUEEN-SONG.mp3">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">African Queen</div>
+					<small class="text-white">Slap D</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/CHILE1-NAYONAYO.png" class="big-song-img rounded img-fluid" >
+					<a href="images/CHILE1NAYONAYO-SONG.mp3">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Nayo Nayo</div>
+					<small class="text-white">Chile 1 Mr Zambia</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/SHENKY-TULIMAHULE.jpg" class="big-song-img rounded img-fluid" >
+					<a href="images/SHENKY-TULIMAHULE-SONG.mp3">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Tuli Mahule</div>
+					<small class="text-white">Shenky</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/TRIPLEM-AGAIN.jpeg" class="big-song-img rounded img-fluid" >
+					<a href="images/TRIPLEM-AGAIN-SONG.mp3">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white"> Again Ft. Yo Maps</div>
+					<small class="text-white">Triple M</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/KANTU-REAPWHATYOUSOW.jpg" class="big-song-img rounded img-fluid" >
+					<a href="images/KANTU-REAPWHATYOUSOW-SONG.mp3">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Reap what you sow</div>
+					<small class="text-white">Kantu</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/JEACASH-PEOPLELIKEUS.jpg" class="big-song-img rounded img-fluid" >
+					<a href="images/JEACASH-PEOPLELIKEUS-SONG.mp3">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">People like us Ft. Yo maps</div>
+					<small class="text-white">Jea Cash</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+
+
+
+
+
+
+
+
+
+
+		</section>
+
+		<h5 class="song-category-title mx-5 pt-4"> Hot Videos ......COMING SOON !!!<small class="float-end"><a href="">view more <i class="bi bi-box-arrow-up-right"></i></a></small></h5>
+			<!--start category area-->
+			<section Class="pt-2 p-4 mx-5 d-flex" style="flex-wrap: wrap; justify-content: center;">
+
+				
+				
+						<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/01.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">No more you</div>
+					<small class="text-white">Massive</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/YOMAPST.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Samson Ft. T Sean</div>
+					<small class="text-white">Yo Maps</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+			
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/TOMMYDT10.jpg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">The God Father</div>
+					<small class="text-white">Tommy D</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/YOMAPST10.jpeg" class="big-song-img rounded img-fluid" >
+					<a href="images/YOMAPS.mp3"img src="images/YOMAPST10.jpeg">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					
+					</div>
+					<div class="lead text-white">Osavala door</div>
+					<small class="text-white">Yo Maps</small>
+				
+				</div>
+			</a>
+		
+				<!--song card end-->
+
+					
+
+				<!--song card start-->
+
+			<div class="m-2" style="width: 200px;">
+				<div style="position: relative;">
+					<img src="images/CHILE1T10.jpeg" class="big-song-img rounded img-fluid" >
+					<a href="#">
+						<div class="big-song-hover" >
+							<i class="h1 bi bi-play"></i>
+						</div>
+					</a>
+					</div>
+				<div>
+					<div class="lead text-white">Fweba Kuchaume</div>
+					<small class="text-white">Chile 1</small>
+				</div>
+			</div>
+		
+				<!--song card end-->
+
+			
+		</section>
+	
+			<!--end category area-->
+
+
+
+			<!--MUSIC PLAYER-->
+       			<div class="songInfo">
+					<div Class="song-small m-1 ms-4 col-md-6 row align-items-center" >
+						<div class="col d-flex">	
+											  
+						  						  
+							<img class= rounded m-1 src="images/01.jpg" style= "widht: 50px;height: 50px; object-fit: cover;">
+							<div class="ms-1"></div>
+								<div class="ms-2">
+									<div>No more you</div>
+									<small>Massive</small>
+								</div>
+
+
+										
+				</div>	
+					<audio controls>									
+						<source src="images/MASSIVE.MP3">							
+					</audio>			
+				</div>
+
+				
+			
+
+			<!--MUSIC PLAYER-->
+
+
+
+
+
+
+
+						
+</main><!--end main area-->
+
+<footer class="p-4 pt-4 row bg-black text-white">
+		<div class="col-md-3 mb-4 col-sm-6">
+			<h5> Quick links</h5>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">login</a></li>
+				<li><a href="#">Signup</a></li>
+				<li><a href="#">0964472486</a></li>		
+			</ul>
+		</div>
+		<div class="col-md-3 mb-4 col-sm-6">
+			<h5> Secret Room</h5>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">login</a></li>
+				<li><a href="#">Signup</a></li>
+				<li><a href="#">0964472486</a></li>		
+			</ul>
+		</div>
+		<div class="col-md-6 mb-4">
+			<h5> 0964472486</h5>
+			<div><small>For more new songs</small> </div>
+
+			<div class=" input-group mb-3 mt-2">
+		<input type="text" class="form-control" placeholder="email" arial-lebel="Recipient's username aria-labelledby="basic-addon2">
+		<span class="bg-primary text-white input-group-text" id="basic-addon2">Subscribe</span>
+	</div>
+
+		<div class="text-white h4 mx-3">
+			<small>Follow us</small>
+			<a href="">
+				<i class="bi bi-facebook"></i>
+			</a>
+			<a href="">
+				<i class="bi bi-twitter"></i>
+			</a>
+			<a href="">
+				<i class="bi bi-instagram"></i>
+			</a>
+			
+		</div>
+
+	
+
+
+</footer>
+
+</body>
+
+<script src="js/bootstrap.min.js"></script>
+</html>
